@@ -1,4 +1,4 @@
-# Goose Goose Duck game reply tools | 鹅鸭杀（国际服）复盘工具
+# Goose Goose Duck game replay tools | 鹅鸭杀（国际服）复盘工具
 
 ## React 后台管理系统
 
