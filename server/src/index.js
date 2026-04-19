@@ -6,7 +6,9 @@ import { fileURLToPath } from 'url';
 import pool from './config/db.js';
 import env from './config/env.js';
 import authRoutes from './routes/auth.js';
+import fileRoutes from './routes/files.js';
 import pageRoutes from './routes/pages.js';
+import replayRoutes from './routes/replays.js';
 
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
@@ -32,7 +34,9 @@ app.get('/api/health', async (_request, response) => {
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/files', fileRoutes);
 app.use('/api/pages', pageRoutes);
+app.use('/api/replays', replayRoutes);
 
 if (hasBuiltClient) {
     app.use(express.static(clientDistPath));

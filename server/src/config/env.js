@@ -22,6 +22,7 @@ const env = {
     port: Number(process.env.PORT || 3000),
     jwtSecret: process.env.JWT_SECRET || 'replace-with-a-strong-secret',
     corsOrigin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+    dataDir: process.env.DATA_DIR || 'data',
     db: {
         host: process.env.DB_HOST || '127.0.0.1',
         port: Number(process.env.DB_PORT || 3306),

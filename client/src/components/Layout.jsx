@@ -3,9 +3,10 @@ import { NavLink, Outlet, useNavigate } from 'react-router-dom';
 
 const navigationItems = [
     { label: '概览', path: '/dashboard' },
-    { label: '用户', path: '/user/1' },
-    { label: '游戏', path: '/game/1' },
-    { label: '详情', path: '/details/1' },
+    { label: '文件管理', path: '/files' },
+    { label: '用户', path: '/user' },
+    { label: '游戏', path: '/game' },
+    { label: '详情', path: '/details' },
 ];
 
 function Layout({ session, onLogout }) {
@@ -30,8 +31,8 @@ function Layout({ session, onLogout }) {
             <aside className="sidebar">
                 <div className="brand-card">
                     <span className="brand-card__eyebrow">GGDTools</span>
-                    <h1>后台管理系统</h1>
-                    <p>面向桌面与移动端的统一管理入口。</p>
+                    <h1>Goose Goose Duck对局复盘系统</h1>
+                    {/* <p></p> */}
                 </div>
 
                 <nav className="nav-list" aria-label="主导航">

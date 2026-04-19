@@ -5,6 +5,9 @@ import DashboardPage from '../pages/DashboardPage';
 import EntityPage from '../pages/EntityPage';
 import LoginPage from '../pages/LoginPage';
 import NotFoundPage from '../pages/NotFoundPage';
+import FilePage from '../pages/FilePage';
+import MatchDetailsPage from '../pages/MatchDetailsPage';
+import ReplayPage from '../pages/ReplayPage';
 
 function AppRouter({ session, onLogin, onLogout }) {
     return (
@@ -24,9 +27,11 @@ function AppRouter({ session, onLogin, onLogout }) {
                 >
                     <Route index element={<Navigate to="/dashboard" replace />} />
                     <Route path="dashboard" element={<DashboardPage session={session} />} />
+                    <Route path="files" element={<FilePage />} />
+                    <Route path="replays" element={<ReplayPage />} />
                     <Route path="user/:id" element={<EntityPage section="user" title="用户管理" />} />
                     <Route path="game/:id" element={<EntityPage section="game" title="游戏管理" />} />
-                    <Route path="details/:id" element={<EntityPage section="details" title="详情页" />} />
+                    <Route path="details/:id" element={<MatchDetailsPage />} />
                     <Route path="*" element={<NotFoundPage />} />
                 </Route>
             </Routes>

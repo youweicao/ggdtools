@@ -64,3 +64,77 @@ export function fetchCurrentUser() {
 export function fetchPageData(section, id) {
     return request(`/pages/${section}/${id}`);
 }
+
+export function fetchMatchDetails(originalNameWithoutExt) {
+    return request(`/pages/details/${encodeURIComponent(originalNameWithoutExt)}`);
+}
+
+// File Manager
+export function fetchFiles() {
+    return request('/files');
+}
+
+export function uploadFile(formData) {
+    const session = getStoredSession();
+    return fetch(`${API_BASE_URL}/files`, {
+        method: 'POST',
+        headers: session?.token ? { Authorization: `Bearer ${session.token}` } : {},
+        body: formData,
+    }).then(async (r) => {
+        const data = await r.json().catch(() => ({}));
+        if (!r.ok) throw new Error(data.message || '上传失败');
+        return data;
+    });
+}
+
+export function patchFile(id, description) {
+    return request(`/files/${id}`, {
+        method: 'PATCH',
+        body: JSON.stringify({ description }),
+    });
+}
+
+export function downloadFile(id, name) {
+    const session = getStoredSession();
+    return fetch(`${API_BASE_URL}/files/${id}/download`, {
+        headers: session?.token ? { Authorization: `Bearer ${session.token}` } : {},
+    }).then(async (r) => {
+        if (!r.ok) { const d = await r.json().catch(() => ({})); throw new Error(d.message || '下载失败'); }
+        const blob = await r.blob();
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url; a.download = name; a.click();
+        URL.revokeObjectURL(url);
+    });
+}
+
+export function deleteFile(id) {
+    return request(`/files/${id}`, { method: 'DELETE' });
+}
+
+// Replay CRUD
+export function fetchReplays() {
+    return request('/replays');
+}
+
+export function fetchReplay(id) {
+    return request(`/replays/${id}`);
+}
+
+export function createReplay(payload) {
+    return request('/replays', {
+        method: 'POST',
+        body: JSON.stringify(payload),
+    });
+}
+
+export function updateReplay(id, payload) {
+    return request(`/replays/${id}`, {
+        method: 'PUT',
+        body: JSON.stringify(payload),
+    });
+}
+
+export function deleteReplay(id) {
+    return request(`/replays/${id}`, { method: 'DELETE' });
+}

@@ -1,0 +1,596 @@
+{
+    "matchId": "V056190420261407283411",
+    "startAt": 1776607643552,
+    "endAt": 1776608164385,
+    "map": 10,
+    "mode": 5,
+    "winningFaction": 2,
+    "playerData": {
+        "5qeoN0UzKaMWKi5dwYcxOzraUc73": {
+            "userId": "5qeoN0UzKaMWKi5dwYcxOzraUc73",
+            "nickname": "YY",
+            "role": 111,
+            "faction": 3,
+            "teamId": -1,
+            "win": false,
+            "isGhost": false,
+            "disconnected": false,
+            "deadAt": 0,
+            "kills": 0,
+            "tasks": 0,
+            "sabotages": 0,
+            "discussions": 1,
+            "correctVotes": 0,
+            "turnsSurvived": 3,
+            "cosmetics": {
+                "feather": 17,
+                "hat": "100080129",
+                "clothes": "100081746",
+                "eyes": "empty_Eyes",
+                "fart": "100080291",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "100080771",
+                "card": "empty_Cards"
+            }
+        },
+        "fcOV1awyKdfqZEFpA8uYBhLbJde2": {
+            "userId": "fcOV1awyKdfqZEFpA8uYBhLbJde2",
+            "nickname": "兔兔",
+            "role": 30,
+            "faction": 1,
+            "teamId": -1,
+            "win": false,
+            "isGhost": true,
+            "disconnected": false,
+            "deadAt": 1776607720139,
+            "kills": 0,
+            "tasks": 0,
+            "sabotages": 0,
+            "discussions": 0,
+            "correctVotes": 0,
+            "turnsSurvived": 3,
+            "cosmetics": {
+                "feather": 19,
+                "hat": "100080440",
+                "clothes": "100080441",
+                "eyes": "100082053",
+                "fart": "100080131",
+                "pet": "100080421",
+                "stinger": "empty_Stingers",
+                "banner": "100080884",
+                "card": "empty_Cards"
+            }
+        },
+        "2ELHTYPivxRgdUQD18yIe6qE9UR2": {
+            "userId": "2ELHTYPivxRgdUQD18yIe6qE9UR2",
+            "nickname": "小呆瓜",
+            "role": 100,
+            "faction": 1,
+            "teamId": -1,
+            "win": false,
+            "isGhost": true,
+            "disconnected": true,
+            "deadAt": 1776607722770,
+            "kills": 0,
+            "tasks": 1,
+            "sabotages": 0,
+            "discussions": 0,
+            "correctVotes": 0,
+            "turnsSurvived": 1,
+            "cosmetics": {
+                "feather": 7,
+                "hat": "100082007",
+                "clothes": "100081084",
+                "eyes": "100080309",
+                "fart": "100080395",
+                "pet": "100080134",
+                "stinger": "empty_Stingers",
+                "banner": "100080736",
+                "card": "empty_Cards"
+            }
+        },
+        "Cr6NfM3v39S7S3qNd14dBIb9uXD2": {
+            "userId": "Cr6NfM3v39S7S3qNd14dBIb9uXD2",
+            "nickname": "天宫",
+            "role": 86,
+            "faction": 2,
+            "teamId": -1,
+            "win": true,
+            "isGhost": true,
+            "disconnected": false,
+            "deadAt": 1776607845702,
+            "kills": 1,
+            "tasks": 0,
+            "sabotages": 0,
+            "discussions": 0,
+            "correctVotes": 0,
+            "turnsSurvived": 2,
+            "cosmetics": {
+                "feather": 9,
+                "hat": "empty_Hats",
+                "clothes": "empty_Clothes",
+                "eyes": "empty_Eyes",
+                "fart": "empty_Farts",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "empty_Banners",
+                "card": "empty_Cards"
+            }
+        },
+        "QwChViBBgvemYoYC8YFi5ZJVueA3": {
+            "userId": "QwChViBBgvemYoYC8YFi5ZJVueA3",
+            "nickname": "小羽",
+            "role": 11,
+            "faction": 1,
+            "teamId": -1,
+            "win": false,
+            "isGhost": true,
+            "disconnected": false,
+            "deadAt": 1776607745014,
+            "kills": 0,
+            "tasks": 0,
+            "sabotages": 0,
+            "discussions": 0,
+            "correctVotes": 0,
+            "turnsSurvived": 3,
+            "cosmetics": {
+                "feather": 6,
+                "hat": "100080076",
+                "clothes": "100081288",
+                "eyes": "empty_Eyes",
+                "fart": "empty_Farts",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "empty_Banners",
+                "card": "empty_Cards"
+            }
+        },
+        "VlXkwxl0pKW0vDMMtCBwpvpeA612": {
+            "userId": "VlXkwxl0pKW0vDMMtCBwpvpeA612",
+            "nickname": "林北很忙的",
+            "role": 3,
+            "faction": 3,
+            "teamId": -1,
+            "win": false,
+            "isGhost": false,
+            "disconnected": false,
+            "deadAt": 0,
+            "kills": 0,
+            "tasks": 3,
+            "sabotages": 0,
+            "discussions": 0,
+            "correctVotes": 0,
+            "turnsSurvived": 3,
+            "cosmetics": {
+                "feather": 0,
+                "hat": "100081734",
+                "clothes": "100080226",
+                "eyes": "empty_Eyes",
+                "fart": "100080909",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "100080740",
+                "card": "empty_Cards"
+            }
+        },
+        "M0pFeKtPVSZxfmdhSls3po1jY5j1": {
+            "userId": "M0pFeKtPVSZxfmdhSls3po1jY5j1",
+            "nickname": "996",
+            "role": 10,
+            "faction": 2,
+            "teamId": -1,
+            "win": true,
+            "isGhost": false,
+            "disconnected": false,
+            "deadAt": 0,
+            "kills": 3,
+            "tasks": 3,
+            "sabotages": 1,
+            "discussions": 0,
+            "correctVotes": 0,
+            "turnsSurvived": 3,
+            "cosmetics": {
+                "feather": 5,
+                "hat": "100080490",
+                "clothes": "100081088",
+                "eyes": "empty_Eyes",
+                "fart": "100082432",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "empty_Banners",
+                "card": "empty_Cards"
+            }
+        },
+        "yDuirRSpVMW36KQjrYXhkdOVEbe2": {
+            "userId": "yDuirRSpVMW36KQjrYXhkdOVEbe2",
+            "nickname": "白色蕈菇",
+            "role": 66,
+            "faction": 1,
+            "teamId": -1,
+            "win": false,
+            "isGhost": true,
+            "disconnected": true,
+            "deadAt": 1776608009735,
+            "kills": 0,
+            "tasks": 3,
+            "sabotages": 0,
+            "discussions": 1,
+            "correctVotes": 1,
+            "turnsSurvived": 1,
+            "cosmetics": {
+                "feather": 3,
+                "hat": "100081782",
+                "clothes": "100081758",
+                "eyes": "empty_Eyes",
+                "fart": "100082432",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "100080755",
+                "card": "100080331"
+            }
+        },
+        "DjM9HIPYLISKOd05xWjxBDTO8vP2": {
+            "userId": "DjM9HIPYLISKOd05xWjxBDTO8vP2",
+            "nickname": "阿饼",
+            "role": 31,
+            "faction": 1,
+            "teamId": -1,
+            "win": false,
+            "isGhost": true,
+            "disconnected": false,
+            "deadAt": 1776608048215,
+            "kills": 0,
+            "tasks": 3,
+            "sabotages": 0,
+            "discussions": 0,
+            "correctVotes": 1,
+            "turnsSurvived": 3,
+            "cosmetics": {
+                "feather": 2,
+                "hat": "100081736",
+                "clothes": "100081793",
+                "eyes": "100080415",
+                "fart": "100080395",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "100080740",
+                "card": "100080597"
+            }
+        },
+        "BPZuTtO0Vsb1v4qxTu79zOHbe9B3": {
+            "userId": "BPZuTtO0Vsb1v4qxTu79zOHbe9B3",
+            "nickname": "坤灵",
+            "role": 57,
+            "faction": 3,
+            "teamId": -1,
+            "win": false,
+            "isGhost": true,
+            "disconnected": false,
+            "deadAt": 1776607750787,
+            "kills": 0,
+            "tasks": 5,
+            "sabotages": 0,
+            "discussions": 0,
+            "correctVotes": 0,
+            "turnsSurvived": 3,
+            "cosmetics": {
+                "feather": 12,
+                "hat": "100080102",
+                "clothes": "100081230",
+                "eyes": "empty_Eyes",
+                "fart": "100080905",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "100080717",
+                "card": "100080596"
+            }
+        },
+        "DdYzC019YUZGO4sH6RBonzHM6cG3": {
+            "userId": "DdYzC019YUZGO4sH6RBonzHM6cG3",
+            "nickname": "水水水",
+            "role": 12,
+            "faction": 2,
+            "teamId": -1,
+            "win": true,
+            "isGhost": false,
+            "disconnected": false,
+            "deadAt": 0,
+            "kills": 2,
+            "tasks": 1,
+            "sabotages": 0,
+            "discussions": 0,
+            "correctVotes": 0,
+            "turnsSurvived": 3,
+            "cosmetics": {
+                "feather": 18,
+                "hat": "100080129",
+                "clothes": "100081746",
+                "eyes": "empty_Eyes",
+                "fart": "100080402",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "100080882",
+                "card": "100080895"
+            }
+        },
+        "oKuiwZIohlgHK93mPHcXcNQzTQl1": {
+            "userId": "oKuiwZIohlgHK93mPHcXcNQzTQl1",
+            "nickname": "S.W",
+            "role": 83,
+            "faction": 1,
+            "teamId": -1,
+            "win": false,
+            "isGhost": true,
+            "disconnected": false,
+            "deadAt": 1776608163147,
+            "kills": 0,
+            "tasks": 2,
+            "sabotages": 0,
+            "discussions": 1,
+            "correctVotes": 2,
+            "turnsSurvived": 2,
+            "cosmetics": {
+                "feather": 15,
+                "hat": "empty_Hats",
+                "clothes": "100082436",
+                "eyes": "empty_Eyes",
+                "fart": "100080907",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "100080717",
+                "card": "100080586"
+            }
+        },
+        "qqccas0HDoMWy3mYmBBrRUmwE3o1": {
+            "userId": "qqccas0HDoMWy3mYmBBrRUmwE3o1",
+            "nickname": "科迪",
+            "role": 8,
+            "faction": 1,
+            "teamId": -1,
+            "win": false,
+            "isGhost": true,
+            "disconnected": true,
+            "deadAt": 1776607882060,
+            "kills": 0,
+            "tasks": 2,
+            "sabotages": 0,
+            "discussions": 0,
+            "correctVotes": 1,
+            "turnsSurvived": 2,
+            "cosmetics": {
+                "feather": 8,
+                "hat": "100080074",
+                "clothes": "100080449",
+                "eyes": "empty_Eyes",
+                "fart": "100080160",
+                "pet": "empty_Pets",
+                "stinger": "empty_Stingers",
+                "banner": "100081258",
+                "card": "100080587"
+            }
+        }
+    },
+    "rounds": [
+        {
+            "startAt": 1776607643552,
+            "endAt": 1776607846751,
+            "meetingInfo": {
+                "starter": "5qeoN0UzKaMWKi5dwYcxOzraUc73",
+                "type": "Report",
+                "startTime": 1776607752055,
+                "votes": {
+                    "5qeoN0UzKaMWKi5dwYcxOzraUc73": "Cr6NfM3v39S7S3qNd14dBIb9uXD2",
+                    "Cr6NfM3v39S7S3qNd14dBIb9uXD2": "Cr6NfM3v39S7S3qNd14dBIb9uXD2",
+                    "VlXkwxl0pKW0vDMMtCBwpvpeA612": "skip",
+                    "M0pFeKtPVSZxfmdhSls3po1jY5j1": "skip",
+                    "yDuirRSpVMW36KQjrYXhkdOVEbe2": "Cr6NfM3v39S7S3qNd14dBIb9uXD2",
+                    "DjM9HIPYLISKOd05xWjxBDTO8vP2": "Cr6NfM3v39S7S3qNd14dBIb9uXD2",
+                    "DdYzC019YUZGO4sH6RBonzHM6cG3": "Cr6NfM3v39S7S3qNd14dBIb9uXD2",
+                    "oKuiwZIohlgHK93mPHcXcNQzTQl1": "Cr6NfM3v39S7S3qNd14dBIb9uXD2",
+                    "qqccas0HDoMWy3mYmBBrRUmwE3o1": "Cr6NfM3v39S7S3qNd14dBIb9uXD2"
+                },
+                "result": "Cr6NfM3v39S7S3qNd14dBIb9uXD2"
+            },
+            "timeline": [
+                {
+                    "timestamp": 1776607710316,
+                    "type": 1037,
+                    "uid": "BPZuTtO0Vsb1v4qxTu79zOHbe9B3",
+                    "targetId": "5qeoN0UzKaMWKi5dwYcxOzraUc73"
+                },
+                {
+                    "timestamp": 1776607719764,
+                    "type": 5,
+                    "uid": "M0pFeKtPVSZxfmdhSls3po1jY5j1",
+                    "targetId": "2ELHTYPivxRgdUQD18yIe6qE9UR2"
+                },
+                {
+                    "timestamp": 1776607720139,
+                    "type": 2,
+                    "uid": "M0pFeKtPVSZxfmdhSls3po1jY5j1",
+                    "targetId": "fcOV1awyKdfqZEFpA8uYBhLbJde2"
+                },
+                {
+                    "timestamp": 1776607722770,
+                    "type": 2,
+                    "uid": "DdYzC019YUZGO4sH6RBonzHM6cG3",
+                    "targetId": "2ELHTYPivxRgdUQD18yIe6qE9UR2"
+                },
+                {
+                    "timestamp": 1776607741943,
+                    "type": 1037,
+                    "uid": "BPZuTtO0Vsb1v4qxTu79zOHbe9B3",
+                    "targetId": "oKuiwZIohlgHK93mPHcXcNQzTQl1"
+                },
+                {
+                    "timestamp": 1776607745014,
+                    "type": 2,
+                    "uid": "DdYzC019YUZGO4sH6RBonzHM6cG3",
+                    "targetId": "QwChViBBgvemYoYC8YFi5ZJVueA3"
+                },
+                {
+                    "timestamp": 1776607750787,
+                    "type": 2,
+                    "uid": "Cr6NfM3v39S7S3qNd14dBIb9uXD2",
+                    "targetId": "BPZuTtO0Vsb1v4qxTu79zOHbe9B3"
+                },
+                {
+                    "timestamp": 1776607835694,
+                    "type": 3,
+                    "uid": "Cr6NfM3v39S7S3qNd14dBIb9uXD2",
+                    "targetId": ""
+                }
+            ]
+        },
+        {
+            "startAt": 1776607846751,
+            "endAt": 1776608010788,
+            "meetingInfo": {
+                "starter": "yDuirRSpVMW36KQjrYXhkdOVEbe2",
+                "type": "Emergency",
+                "startTime": 1776607912684,
+                "votes": {
+                    "5qeoN0UzKaMWKi5dwYcxOzraUc73": "skip",
+                    "VlXkwxl0pKW0vDMMtCBwpvpeA612": "yDuirRSpVMW36KQjrYXhkdOVEbe2",
+                    "M0pFeKtPVSZxfmdhSls3po1jY5j1": "yDuirRSpVMW36KQjrYXhkdOVEbe2",
+                    "yDuirRSpVMW36KQjrYXhkdOVEbe2": "yDuirRSpVMW36KQjrYXhkdOVEbe2",
+                    "DjM9HIPYLISKOd05xWjxBDTO8vP2": "yDuirRSpVMW36KQjrYXhkdOVEbe2",
+                    "DdYzC019YUZGO4sH6RBonzHM6cG3": "yDuirRSpVMW36KQjrYXhkdOVEbe2",
+                    "oKuiwZIohlgHK93mPHcXcNQzTQl1": "yDuirRSpVMW36KQjrYXhkdOVEbe2"
+                },
+                "result": "yDuirRSpVMW36KQjrYXhkdOVEbe2"
+            },
+            "timeline": [
+                {
+                    "timestamp": 1776607874299,
+                    "type": 5,
+                    "uid": "M0pFeKtPVSZxfmdhSls3po1jY5j1",
+                    "targetId": "yDuirRSpVMW36KQjrYXhkdOVEbe2"
+                },
+                {
+                    "timestamp": 1776607882060,
+                    "type": 2,
+                    "uid": "M0pFeKtPVSZxfmdhSls3po1jY5j1",
+                    "targetId": "qqccas0HDoMWy3mYmBBrRUmwE3o1"
+                },
+                {
+                    "timestamp": 1776607999733,
+                    "type": 3,
+                    "uid": "yDuirRSpVMW36KQjrYXhkdOVEbe2",
+                    "targetId": ""
+                }
+            ]
+        },
+        {
+            "startAt": 1776608010788,
+            "endAt": 1776608164385,
+            "meetingInfo": {
+                "starter": "oKuiwZIohlgHK93mPHcXcNQzTQl1",
+                "type": "Report",
+                "startTime": 1776608052212,
+                "votes": {
+                    "5qeoN0UzKaMWKi5dwYcxOzraUc73": "oKuiwZIohlgHK93mPHcXcNQzTQl1",
+                    "VlXkwxl0pKW0vDMMtCBwpvpeA612": "skip",
+                    "M0pFeKtPVSZxfmdhSls3po1jY5j1": "oKuiwZIohlgHK93mPHcXcNQzTQl1",
+                    "DdYzC019YUZGO4sH6RBonzHM6cG3": "oKuiwZIohlgHK93mPHcXcNQzTQl1",
+                    "oKuiwZIohlgHK93mPHcXcNQzTQl1": "M0pFeKtPVSZxfmdhSls3po1jY5j1"
+                },
+                "result": "oKuiwZIohlgHK93mPHcXcNQzTQl1"
+            },
+            "timeline": [
+                {
+                    "timestamp": 1776608038023,
+                    "type": 5,
+                    "uid": "M0pFeKtPVSZxfmdhSls3po1jY5j1",
+                    "targetId": "5qeoN0UzKaMWKi5dwYcxOzraUc73"
+                },
+                {
+                    "timestamp": 1776608048215,
+                    "type": 1002,
+                    "uid": "DjM9HIPYLISKOd05xWjxBDTO8vP2",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608048215,
+                    "type": 2,
+                    "uid": "M0pFeKtPVSZxfmdhSls3po1jY5j1",
+                    "targetId": "DjM9HIPYLISKOd05xWjxBDTO8vP2"
+                },
+                {
+                    "timestamp": 1776608153143,
+                    "type": 3,
+                    "uid": "oKuiwZIohlgHK93mPHcXcNQzTQl1",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 1,
+                    "uid": "5qeoN0UzKaMWKi5dwYcxOzraUc73",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 1,
+                    "uid": "fcOV1awyKdfqZEFpA8uYBhLbJde2",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 1,
+                    "uid": "2ELHTYPivxRgdUQD18yIe6qE9UR2",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 0,
+                    "uid": "Cr6NfM3v39S7S3qNd14dBIb9uXD2",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 1,
+                    "uid": "QwChViBBgvemYoYC8YFi5ZJVueA3",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 1,
+                    "uid": "VlXkwxl0pKW0vDMMtCBwpvpeA612",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 0,
+                    "uid": "M0pFeKtPVSZxfmdhSls3po1jY5j1",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 1,
+                    "uid": "DjM9HIPYLISKOd05xWjxBDTO8vP2",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 1,
+                    "uid": "BPZuTtO0Vsb1v4qxTu79zOHbe9B3",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 0,
+                    "uid": "DdYzC019YUZGO4sH6RBonzHM6cG3",
+                    "targetId": ""
+                },
+                {
+                    "timestamp": 1776608164385,
+                    "type": 1,
+                    "uid": "oKuiwZIohlgHK93mPHcXcNQzTQl1",
+                    "targetId": ""
+                }
+            ]
+        }
+    ],
+    "gameModeData": null
+}
