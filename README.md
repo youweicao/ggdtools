@@ -1,7 +1,3 @@
-下面是为你的「鹅鸭杀对局工具（GGD Tools）」项目编写的一份专业 README（适合 GitHub / 内网部署文档使用，偏工程化、清晰结构）。
-
----
-
 # 🦢 GGD Tools - Goose Goose Duck Match Analyzer
 
 ## 📌 项目简介
