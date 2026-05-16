@@ -1,0 +1,143 @@
+:root {
+    --header-height: 60px;
+    --sidebar-width: 240px;
+    --primary-color: #2563eb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #f3f4f6;
+}
+
+/* 顶部标题栏 */
+.header {
+    height: var(--header-height);
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.menu-btn {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    background: #ddd;
+    border-radius: 50%;
+}
+
+/* 主体布局 */
+.wrapper {
+    display: flex;
+    margin-top: var(--header-height);
+    min-height: calc(100vh - var(--header-height));
+}
+
+/* 左侧菜单 */
+.sidebar {
+    width: var(--sidebar-width);
+    background: #1f2937;
+    color: white;
+    transition: transform 0.3s ease;
+    position: sticky;
+    top: var(--header-height);
+    height: calc(100vh - var(--header-height));
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.sidebar nav li {
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sidebar nav li:hover {
+    background: #374151;
+    color: var(--primary-color);
+}
+
+/* 右侧内容 */
+.content {
+    flex: 1;
+    padding: 20px;
+    background: #f9fafb;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 手机端适配 */
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .sidebar {
+        position: fixed;
+        left: 0;
+        transform: translateX(-100%);
+        z-index: 99;
+    }
+
+    .sidebar.active {
+        transform: translateX(0);
+    }
+
+    /* 遮罩层 */
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 98;
+    }
+
+    .overlay.active {
+        display: block;
+    }
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar ul li a:hover {
+    background: #eee;
+}
